@@ -1,0 +1,66 @@
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  color: white;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+a .lestName{
+  display: flex;
+  letter-spacing: 1px;
+
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  cursor: pointer;
+}
+
+nav ul li:hover{
+  color: gray;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  /* background: red; */
+  display: none;
+  flex-direction: column;
+  gap: 0.3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar{
+  background: blue;
+  width: 25px;
+  height: 5px;
+}
+
+@media (max-width: 700px){
+  nav ul{
+    display: none;
+  }
+
+  .button{
+    display: flex;
+  }
+}
+
